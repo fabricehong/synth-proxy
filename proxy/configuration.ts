@@ -2,10 +2,11 @@ import { ProxyConfiguration } from './ProxyConfiguration';
 
 export const PROXY_CONFIGURATION: ProxyConfiguration = {
     paths: [
+        /*
         {
             url: '/users',
             redirect: 'http://new-interface-test-tl.t-l.ch/?SERVICE=objectlist&table_id=26&of=json'
-        },
+        },*/
         {
             url: '/stops/commercial',
             redirect: 'http://new-interface-test-tl.t-l.ch/?SERVICE=StopAreasListFunction&output_stops=1&output_lines_in_stops=0&of=json',

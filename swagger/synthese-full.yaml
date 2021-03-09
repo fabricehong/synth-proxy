@@ -25,6 +25,26 @@ tags:
 schemes:
   - "http"
 paths:
+  /users:
+    get:
+      tags:
+        - "user"
+      summary: "Get all users from database"
+      description: ""
+      operationId: "getUsers"
+      consumes:
+        - "application/json"
+        - "application/xml"
+      produces:
+        - "application/xml"
+        - "application/json"
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/User"
   /stops/commercial:
     get:
       tags:
