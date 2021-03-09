@@ -8,7 +8,7 @@ export const PROXY_CONFIGURATION: ProxyConfiguration = {
         },
         {
             url: '/stops/commercial',
-            redirect: 'http://new-interface-test-tl.t-l.ch/?SERVICE=StopAreasListFunction&roid=1970329131941941&output_stops=1&output_lines_in_stops=0&of=json',
+            redirect: 'http://new-interface-test-tl.t-l.ch/?SERVICE=StopAreasListFunction&output_stops=1&output_lines_in_stops=0&of=json',
             parameters: [
                 {
                     name: 'stopId',
