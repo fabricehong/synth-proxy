@@ -1,6 +1,7 @@
 import { indexRouter } from './routes';
 import { apiRouter } from './routes/api';
 import { proxyRouter } from './routes/proxy';
+import { testRouter } from './routes/test';
 
 var createError = require('http-errors');
 var express = require('express');
@@ -34,6 +35,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/api', apiRouter);
 app.use('/proxy', proxyRouter);
+app.use('/test', testRouter);
 
 
 // catch 404 and forward to error handler

@@ -1,0 +1,122 @@
+[
+  {
+    "key": "Server",
+    "value": "nginx",
+    "description": "Contains information about how the server handles requests.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Contains information about how the server handles requests."
+  },
+  {
+    "key": "Date",
+    "value": "Mon, 12 Apr 2021 15:41:27 GMT",
+    "description": "A general header containing the date and time the message was sent.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "A general header containing the date and time the message was sent."
+  },
+  {
+    "key": "Content-Type",
+    "value": "text/html; charset=UTF-8",
+    "description": "Indicates the resource's media type.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Indicates the resource's media type."
+  },
+  {
+    "key": "Transfer-Encoding",
+    "value": "chunked",
+    "description": "Specifying the form of encoding used to transfer the entity to the user.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Specifying the form of encoding used to transfer the entity to the user."
+  },
+  {
+    "key": "Connection",
+    "value": "keep-alive",
+    "description": "A general header specifying whether the current network connection will stay open once the current transaction finishes.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "A general header specifying whether the current network connection will stay open once the current transaction finishes."
+  },
+  {
+    "key": "Expires",
+    "value": "Thu, 19 Nov 1981 08:52:00 GMT",
+    "description": "Indicates the date and time after which a response is considered stale.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Indicates the date and time after which a response is considered stale."
+  },
+  {
+    "key": "Cache-Control",
+    "value": "no-store, no-cache, must-revalidate",
+    "description": "A general header specifying rules for caching in both requests and responses. Rules for length of cache are measured in seconds.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "A general header specifying rules for caching in both requests and responses. Rules for length of cache are measured in seconds."
+  },
+  {
+    "key": "Pragma",
+    "value": "no-cache",
+    "description": "A general header that is implementation specific and may have various effects along the request-response chain.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "A general header that is implementation specific and may have various effects along the request-response chain."
+  },
+  {
+    "key": "X-Frame-Options",
+    "value": "SAMEORIGIN",
+    "description": "Used to avoid clickjacking attacks by making sure their content is not embedded into other sites.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Used to avoid clickjacking attacks by making sure their content is not embedded into other sites."
+  },
+  {
+    "key": "Content-Security-Policy",
+    "value": "frame-ancestors 'self'",
+    "description": "Custom header",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Custom header"
+  },
+  {
+    "key": "Access-Control-Allow-Headers",
+    "value": "*",
+    "description": "Used in response to a preflight request. Specifies which HTTP headers can be used in the actual request.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Used in response to a preflight request. Specifies which HTTP headers can be used in the actual request."
+  },
+  {
+    "key": "Access-Control-Allow-Headers",
+    "value": "Origin, X-Requested-With, Content-Type, accept, x-pingother",
+    "description": "Used in response to a preflight request. Specifies which HTTP headers can be used in the actual request.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Used in response to a preflight request. Specifies which HTTP headers can be used in the actual request."
+  },
+  {
+    "key": "Access-Control-Allow-Origin",
+    "value": "*",
+    "description": "Specifies a URI that may access the response.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Specifies a URI that may access the response."
+  },
+    {
+      "key": "Access-Control-Allow-Credentials",
+      "value": "true",
+      "description": "Indicates whether to expose the response to frontend JavaScript code. When used in response to a preflight request, it indicates whether or not the actual request can be made using credentials.",
+      "enabled": true,
+      "disableEdit": true,
+      "info": "Indicates whether to expose the response to frontend JavaScript code. When used in response to a preflight request, it indicates whether or not the actual request can be made using credentials."
+    },
+    {
+      "key": "Content-Encoding",
+      "value": "gzip",
+      "description": "Indicates whether to expose the response to frontend JavaScript code. When used in response to a preflight request, it indicates whether or not the actual request can be made using credentials.",
+      "enabled": true,
+      "disableEdit": true,
+      "info": "Indicates whether to expose the response to frontend JavaScript code. When used in response to a preflight request, it indicates whether or not the actual request can be made using credentials."
+    }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "key": "Vary",
+    "value": "Origin",
+    "description": "Determines how to match future request headers to decide whether the cached response can be used rather than requesting a fresh one.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Determines how to match future request headers to decide whether the cached response can be used rather than requesting a fresh one."
+  },
+  {
+    "key": "Vary",
+    "value": "Access-Control-Request-Method",
+    "description": "Determines how to match future request headers to decide whether the cached response can be used rather than requesting a fresh one.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Determines how to match future request headers to decide whether the cached response can be used rather than requesting a fresh one."
+  },
+  {
+    "key": "Vary",
+    "value": "Access-Control-Request-Headers",
+    "description": "Determines how to match future request headers to decide whether the cached response can be used rather than requesting a fresh one.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Determines how to match future request headers to decide whether the cached response can be used rather than requesting a fresh one."
+  },
+  {
+    "key": "Access-Control-Allow-Origin",
+    "value": "*",
+    "description": "Specifies a URI that may access the response.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Specifies a URI that may access the response."
+  },
+  {
+    "key": "Access-Control-Allow-Methods",
+    "value": "POST",
+    "description": "Used in response to a preflight request. Specifies which method or methods can access the resource.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Used in response to a preflight request. Specifies which method or methods can access the resource."
+  },
+  {
+    "key": "Access-Control-Allow-Headers",
+    "value": "content-type",
+    "description": "Used in response to a preflight request. Specifies which HTTP headers can be used in the actual request.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Used in response to a preflight request. Specifies which HTTP headers can be used in the actual request."
+  },
+  {
+    "key": "Access-Control-Max-Age",
+    "value": "1800",
+    "description": "Specifies the amount of time in seconds that the results of a preflight request can be cached.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Specifies the amount of time in seconds that the results of a preflight request can be cached."
+  },
+  {
+    "key": "X-Content-Type-Options",
+    "value": "nosniff",
+    "description": "Can be used to opt out of MIME type sniffing a response away from the declared content-type.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Can be used to opt out of MIME type sniffing a response away from the declared content-type."
+  },
+  {
+    "key": "X-XSS-Protection",
+    "value": "1; mode=block",
+    "description": "Stops pages from loading when they detect reflected cross-site scripting (XSS) attacks.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Stops pages from loading when they detect reflected cross-site scripting (XSS) attacks."
+  },
+  {
+    "key": "Cache-Control",
+    "value": "no-cache, no-store, max-age=0, must-revalidate",
+    "description": "A general header specifying rules for caching in both requests and responses. Rules for length of cache are measured in seconds.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "A general header specifying rules for caching in both requests and responses. Rules for length of cache are measured in seconds."
+  },
+  {
+    "key": "Pragma",
+    "value": "no-cache",
+    "description": "A general header that is implementation specific and may have various effects along the request-response chain.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "A general header that is implementation specific and may have various effects along the request-response chain."
+  },
+  {
+    "key": "Expires",
+    "value": "0",
+    "description": "Indicates the date and time after which a response is considered stale.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Indicates the date and time after which a response is considered stale."
+  },
+  {
+    "key": "Date",
+    "value": "Mon, 12 Apr 2021 15:16:31 GMT",
+    "description": "A general header containing the date and time the message was sent.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "A general header containing the date and time the message was sent."
+  },
+
+  {
+    "key": "Connection",
+    "value": "keep-alive",
+    "description": "A general header specifying whether the current network connection will stay open once the current transaction finishes.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "A general header specifying whether the current network connection will stay open once the current transaction finishes."
+  },
+  {
+    "key": "Keep-Alive",
+    "value": "timeout=20",
+    "description": "Custom header",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Custom header"
+  },
+  {
+    "key": "Transfer-Encoding",
+    "value": "chunked",
+    "description": "A general header specifying whether the current network connection will stay open once the current transaction finishes.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "A general header specifying whether the current network connection will stay open once the current transaction finishes."
+  }
+]

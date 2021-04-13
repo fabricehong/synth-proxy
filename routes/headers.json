@@ -1,0 +1,18 @@
+[
+  {
+    "key": "Access-Control-Allow-Origin",
+    "value": "*",
+    "description": "Specifies a URI that may access the response.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Specifies a URI that may access the response."
+  },
+  {
+    "key": "Access-Control-Allow-Headers",
+    "value": "Origin, X-Requested-With, Content-Type, accept, x-pingother",
+    "description": "Used in response to a preflight request. Specifies which HTTP headers can be used in the actual request.",
+    "enabled": true,
+    "disableEdit": true,
+    "info": "Used in response to a preflight request. Specifies which HTTP headers can be used in the actual request."
+  }
+]
